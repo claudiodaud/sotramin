@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/contro15/public_html/sotramin/
-    - /bin/rsync public $DEPLOYPATH
+    - /bin/cp -r ./public/* $DEPLOYPATH
