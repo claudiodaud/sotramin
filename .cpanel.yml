@@ -7,5 +7,5 @@ deployment:
     - /bin/cp -r public/.htaccess  $DEPLOYPATH
     - /bin/cp -r public/favicon.ico  $DEPLOYPATH
     - /bin/cp -r public/robots.txt  $DEPLOYPATH
-    - /bin/cp -r public/storage/  $DEPLOYPATH
+    - ln -s /home/control15/repositories/sotramin/public/storage /home/contro15/public_html/sotramin
    
