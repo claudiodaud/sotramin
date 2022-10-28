@@ -2,8 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/contro15/public_html/sotramin/
-    - /bin/cp build/  $DEPLOYPATH
-    - /bin/cp .htaccess  $DEPLOYPATH
-    - /bin/cp favicon.ico  $DEPLOYPATH
-    - /bin/cp robots.txt  $DEPLOYPATH
+    - /bin/cp -r public/build/  $DEPLOYPATH
+    - /bin/cp -r public/.htaccess  $DEPLOYPATH
+    - /bin/cp -r public/favicon.ico  $DEPLOYPATH
+    - /bin/cp -r public/robots.txt  $DEPLOYPATH
    
