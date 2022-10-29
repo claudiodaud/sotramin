@@ -1,11 +1,11 @@
 ...
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/contro15/public_html/sotramin/
-    - php artisan storage:link
-    - /bin/cp -r public/build/  $DEPLOYPATH
-    - /bin/cp -r public/.htaccess  $DEPLOYPATH
-    - /bin/cp -r public/favicon.ico  $DEPLOYPATH
-    - /bin/cp -r public/robots.txt  $DEPLOYPATH
-    - ln -s /home/control15/repositories/sotramin/public/storage /home/contro15/public_html/sotramin
+    #- export DEPLOYPATH=/home/contro15/public_html/sotramin/
+    #- ln -s /home/contro15/repositories/sotramin/storage/app/public /home/contro15/public_html/sotramin/storage
+    #- /bin/cp -r public/build/  $DEPLOYPATH
+    #- /bin/cp -r public/.htaccess  $DEPLOYPATH
+    #- /bin/cp -r public/favicon.ico  $DEPLOYPATH
+    #- /bin/cp -r public/robots.txt  $DEPLOYPATH
+    
    
